@@ -1,0 +1,6 @@
+# created by virtualenv automatically
+venv
+out
+.idea
+*.txt
+*.iml
