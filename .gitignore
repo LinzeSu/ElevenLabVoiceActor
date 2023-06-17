@@ -2,5 +2,5 @@
 venv
 out
 .idea
-*.txt
+lines.txt
 *.iml

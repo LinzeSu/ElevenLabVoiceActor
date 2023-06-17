@@ -7,7 +7,7 @@ set_api_key("your_api_key")
 # Get the path to the file in src/resources
 current_dir = os.path.dirname(os.path.abspath(__file__))
 resources_dir = os.path.join(current_dir, 'resources')
-conversation_file_path = os.path.join(resources_dir, 'lines.txt')
+conversation_file_path = os.path.join(resources_dir, 'sample.txt')
 
 conversation_list = read_conversation_file(conversation_file_path)
 conversation_output_path = "your_output_path" + "/"
